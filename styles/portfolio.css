@@ -166,43 +166,69 @@ main section {
 
 }
 
-.resume-container{
+.resume-container {
     display: flex;
     gap: 50px;
 
 }
-.resume-item-institute, .resume-item-discription{
+
+.resume-item-institute,
+.resume-item-discription {
     color: #757575;
 }
 
-.resume-item-title{
+.resume-item-title {
     color: var(--Dark-02, #474747);
-font-size: 25px;
-font-weight: 700;
-margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
 
 }
 
-.resume-container hr{
+.resume-container hr {
     margin: 20px 5px 20px 5px;
 }
 
-.resume-item-institute{
+.resume-item-institute {
     margin-bottom: 20px;
     margin-top: 0px;
 }
 
-.download-cv{
+.download-cv {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 30px;
 }
 
 /* footer styles */
-footer{
+footer {
     display: flex;
-    background:  #FFF8F3;
+    gap: 100px;
+    background: #FFF8F3;
     padding: 130px 200px;
     margin-top: 30px;
 }
 
+.footer-coloumn {
+    width: 50%;
+
+}
+
+.contact input[type="text"],.contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    font-size: 16px;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+
+}
+
+.social-links a{
+    margin-right: 25px;
+
+}
