@@ -195,4 +195,14 @@ margin-bottom: 10px;
 .download-cv{
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 30px;
 }
+
+/* footer styles */
+footer{
+    display: flex;
+    background:  #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 30px;
+}
+
